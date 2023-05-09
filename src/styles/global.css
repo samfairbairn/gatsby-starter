@@ -1,0 +1,27 @@
+@import "_fonts.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import "_locomotive.css";
+
+@layer components {
+}
+
+/* *,
+html,
+body {
+  scroll-behavior: smooth !important;
+} */
+
+body {
+  @apply antialiased h-screen bg-slate-200;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
