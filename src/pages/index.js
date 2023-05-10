@@ -1,7 +1,7 @@
-import { Button, Seo } from "@/components";
-import { MainLayout } from "@/layouts";
-import { Link } from "gatsby";
-import React from "react";
+import { Button, Seo } from "@/components"
+import { MainLayout } from "@/layouts"
+import { Link } from "gatsby"
+import React from "react"
 
 const IndexPage = () => {
   return (
@@ -11,7 +11,7 @@ const IndexPage = () => {
         <Button>about</Button>
       </Link>
     </MainLayout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
